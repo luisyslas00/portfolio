@@ -12,8 +12,10 @@
     <!-- Tailwind -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- CSS -->
-    <!-- <link rel="stylesheet" href="./css/styles.css"> -->    
-     <title>Luis Yslas | Portfolio</title>
+    <!-- <link rel="stylesheet" href="./css/styles.css"> -->
+    <meta name="description" content="Desarrollador FullStack | Portfolio">
+    <meta name="keywords" content="desarrollador, fullstack, frontend, backend, react, javascript, nodejs, html, css, tutor">
+    <title>Luis Yslas | Portfolio</title>
 </head>
 <body>
     <!-- Header -->
@@ -22,14 +24,14 @@
             <!-- Menú Escritorio -->
             <div class="flex flex-row justify-around items-center p-4">
                 <!-- Logo -->
-                <a class="lg:text-black" href="#">Portfolio</a>
+                <!-- <a class="lg:text-black" href="#">Portfolio</a> -->
                 <!-- Nav Escritorio -->
                 <div class="hidden lg:block">
                     <ul class="flex flex-row text-center text-white list-none">
                         <li><a class="m-4 hover:underline underline-offset-8" href="#sobremi">Sobre mi</a></li>
                         <li><a class="m-4 hover:underline underline-offset-8" href="#skills">Skills</a></li>
                         <li><a class="m-4 hover:underline underline-offset-8" href="#proyectos">Proyectos</a></li>
-                        <li><a class="m-4 hover:underline underline-offset-8" href="#contacto">Contacto</a></li>
+                        <li><a class="m-4 hover:underline underline-offset-8" href="#certificados">Certificados</a></li>
                     </ul>
                 </div>
                 <!-- Botón Mobile -->
@@ -47,7 +49,7 @@
                     <li class="w-full"><a class="block w-full hover:bg-gray-400 p-2" href="#sobremi">Sobre mi</a></li>
                     <li class="w-full"><a class="block w-full hover:bg-gray-400 p-2" href="#skills">Skills</a></li>
                     <li class="w-full"><a class="block w-full hover:bg-gray-400 p-2" href="#proyectos">Proyectos</a></li>
-                    <li class="w-full"><a class="block w-full hover:bg-gray-400 p-2" href="#contacto">Contacto</a></li>
+                    <li class="w-full"><a class="block w-full hover:bg-gray-400 p-2" href="#certificados">Certificados</a></li>
                 </ul>
             </div>  
         </nav>
@@ -55,7 +57,7 @@
             <div class="flex flex-col sm:flex-row items-center">
                 <!-- Avatar -->
                 <div class="bg-white p-8 rounded-full rounded-br-none w-40 mb-4 sm:mr-4 sm:mb-0">
-                    <img src="./images/desarrollo-web.png" alt="">
+                    <img src="./images/desarrollo-web.png" alt="Avatar Desarrollo Web">
                 </div>
                 <div class="flex flex-col items-center">
                     <h1 class="text-4xl text-white font-semibold">Luis Yslas</h1>
@@ -66,30 +68,30 @@
         </div>
     </header>
     <main>
-        <div class="p-8" id="sobremi">
+        <div class="p-8 lg:h-screen flex items-center justify-center" id="sobremi">
             <div class="flex flex-col">
                 <h2 class="mb-8 text-2xl mx-auto">Sobre mi</h2>
                 <p>Soy un apasionado del desarrollo web con experiencia en tecnologías front-end y back-end. A lo largo de mi trayectoria, he realizado diversos cursos como JavaScript, Desarrollo Web, React, Python, Back-end y WordPress. Mis principales fortalezas están en la creación de aplicaciones dinámicas, con un enfoque en buenas prácticas y experiencia de usuario. Mis puntos fuertes son Desarrollo Web y JavaScript. Trabajo como Tutor en Coderhouse desde febrero de 2022, en donde asisto a los alumnos y corrijo trabajos prácticos. Si bien tengo un inglés básico mi próxima meta es aprender y mejorarlo.</p>
             </div>
         </div>
-        <div class="p-8" id="skills">
+        <div class="p-8 lg:h-screen flex items-center justify-center" id="skills">
             <div class="flex flex-col">
                 <h2 class="mb-8 text-2xl mx-auto">Skills</h2>
-                <div class="grid grid-cols-5 gap-4 items-center lg:grid-cols-10 justify-center">
-                    <img class="w-16" src="./images/html.png" alt="">
-                    <img class="w-12" src="./images/css.png" alt="">
-                    <img class="w-16" src="./images/javascript.png" alt="">
-                    <img class="w-16" src="./images/react.png" alt="">
-                    <img class="w-16" src="./images/nodejs.png" alt="">
-                    <img class="w-16" src="./images/github.png" alt="">
-                    <img class="w-16" src="./images/wordpress.png" alt="">
-                    <img class="w-16" src="./images/tailwind.png" alt="">
-                    <img class="w-16" src="./images/mongodb.png" alt="">
-                    <img class="w-16" src="./images/python.png" alt="">
+                <div class="grid grid-cols-5 gap-8 items-center lg:grid-cols-5 justify-center">
+                    <img class="w-16" src="./images/html.png" alt="Logo HTML">
+                    <img class="w-12" src="./images/css.png" alt="Logo CSS">
+                    <img class="w-16" src="./images/javascript.png" alt="Logo JavaScript">
+                    <img class="w-16" src="./images/react.png" alt="Logo React">
+                    <img class="w-16" src="./images/nodejs.png" alt="Logo NodeJS">
+                    <img class="w-16" src="./images/github.png" alt="Logo Github">
+                    <img class="w-16" src="./images/wordpress.png" alt="Logo Wordpress">
+                    <img class="w-16" src="./images/tailwind.png" alt="Logo Tailwind">
+                    <img class="w-16" src="./images/mongodb.png" alt="Logo MongoDB">
+                    <img class="w-16" src="./images/python.png" alt="Logo Python">
                 </div>
             </div>
         </div>
-        <div class="p-8" id="proyectos">
+        <div class="p-8 lg:h-screen flex items-center justify-center" id="proyectos">
             <div class="flex flex-col">
                 <h2 class="mb-8 text-2xl mx-auto">Proyectos</h2>
                 <div class="mb-8 mx-auto flex flex-col items-center sm:flex-row sm:flex-wrap gap-4 justify-center">
@@ -97,7 +99,7 @@
                     <div class="flex flex-col justify-between border-2 border-grey-200 w-80 p-4 h-96">
                         <!-- Imagen -->
                         <div class="h-40 overflow-hidden">
-                            <img class="object-center object-" src="./images/header-proyecto1.png" alt="">
+                            <img class="object-center object-" src="./images/header-proyecto1.png" alt="Imagen de CoderSchool">
                         </div>
                         <!-- Descripción -->
                         <div class="mb-4">
@@ -124,7 +126,7 @@
                     <div class="flex flex-col justify-between border-2 border-grey-200 w-80 p-4 h-96">
                         <!-- Imagen -->
                         <div class="h-40 overflow-hidden">
-                            <img class="object-center object-" src="./images/Captura de pantalla 2025-03-01 154840.png" alt="">
+                            <img class="object-center object-" src="./images/Captura de pantalla 2025-03-01 154840.png" alt="Imagen de Todo Retro">
                         </div>
                         <!-- Descripción -->
                         <div class="mb-4">
@@ -144,7 +146,7 @@
             </div>
         </div>
         <!-- Certificados -->
-        <div class="p-8 bg-black h-screen">
+        <div class="p-8 bg-black lg:h-screen flex items-center justify-center" id="certificados">
             <div class="flex flex-col items-center justify-center">
                 <h2 class="mb-8 text-2xl mx-auto text-white">Certificados</h2>
                 <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 items-center justify-center">
