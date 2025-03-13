@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/2414960776.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- CSS -->
+    <!-- <link rel="stylesheet" href="./css/styles.css"> -->    
+     <title>Luis Yslas | Portfolio</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav id="navbar" class="bg-gray-800 text-white w-100 fixed w-full lg:bg-transparent">
+            <!-- Menú Escritorio -->
+            <div class="flex flex-row justify-around items-center p-4">
+                <!-- Logo -->
+                <a class="lg:text-black" href="#">Portfolio</a>
+                <!-- Nav Escritorio -->
+                <div class="hidden lg:block">
+                    <ul class="flex flex-row text-center text-white list-none">
+                        <li><a class="m-4 hover:underline underline-offset-8" href="#sobremi">Sobre mi</a></li>
+                        <li><a class="m-4 hover:underline underline-offset-8" href="#skills">Skills</a></li>
+                        <li><a class="m-4 hover:underline underline-offset-8" href="#proyectos">Proyectos</a></li>
+                        <li><a class="m-4 hover:underline underline-offset-8" href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <!-- Botón Mobile -->
+                <div id="btnMobile" class="lg:hidden">
+                    <button id="btn_nav" class="hover:bg-gray-700 p-2 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white rounded">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-white">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <!-- Menú Mobile -->
+            <div id="menuMobile" class="hidden relative w-full top-full z-0 lg:hidden">
+                <ul role="list" class="flex flex-col text-center text-white list-none">
+                    <li class="w-full"><a class="block w-full hover:bg-gray-400 p-2" href="#sobremi">Sobre mi</a></li>
+                    <li class="w-full"><a class="block w-full hover:bg-gray-400 p-2" href="#skills">Skills</a></li>
+                    <li class="w-full"><a class="block w-full hover:bg-gray-400 p-2" href="#proyectos">Proyectos</a></li>
+                    <li class="w-full"><a class="block w-full hover:bg-gray-400 p-2" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>  
+        </nav>
+        <div class="bg-[url('./images/background-header-2.png')] bg-left bg-cover bg-no-repeat h-screen lg:bg-center flex flex-row items-center justify-center">
+            <div class="flex flex-col sm:flex-row items-center">
+                <!-- Avatar -->
+                <div class="bg-white p-8 rounded-full rounded-br-none w-40 mb-4 sm:mr-4 sm:mb-0">
+                    <img src="./images/desarrollo-web.png" alt="">
+                </div>
+                <div class="flex flex-col items-center">
+                    <h1 class="text-4xl text-white font-semibold">Luis Yslas</h1>
+                    <h2 class="text-2xl text-white mb-4">Desarrollador FullStack</h2>
+                    <a href="https://drive.google.com/uc?export=download&id=1vN6AC6BIlKMhoB1ZibsP6WCdYvPMjfDM" class="bg-blue-400 py-2 px-4 text-white cursor-pointer hover:bg-blue-800 rounded-lg">Descargar CV</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="p-8" id="sobremi">
+            <div class="flex flex-col">
+                <h2 class="mb-8 text-2xl mx-auto">Sobre mi</h2>
+                <p>Soy un apasionado del desarrollo web con experiencia en tecnologías front-end y back-end. A lo largo de mi trayectoria, he realizado diversos cursos como JavaScript, Desarrollo Web, React, Python, Back-end y WordPress. Mis principales fortalezas están en la creación de aplicaciones dinámicas, con un enfoque en buenas prácticas y experiencia de usuario. Mis puntos fuertes son Desarrollo Web y JavaScript. Trabajo como Tutor en Coderhouse desde febrero de 2022, en donde asisto a los alumnos y corrijo trabajos prácticos. Si bien tengo un inglés básico mi próxima meta es aprender y mejorarlo.</p>
+            </div>
+        </div>
+        <div class="p-8" id="skills">
+            <div class="flex flex-col">
+                <h2 class="mb-8 text-2xl mx-auto">Skills</h2>
+                <div class="grid grid-cols-5 gap-4 items-center lg:grid-cols-10 justify-center">
+                    <img class="w-16" src="./images/html.png" alt="">
+                    <img class="w-12" src="./images/css.png" alt="">
+                    <img class="w-16" src="./images/javascript.png" alt="">
+                    <img class="w-16" src="./images/react.png" alt="">
+                    <img class="w-16" src="./images/nodejs.png" alt="">
+                    <img class="w-16" src="./images/github.png" alt="">
+                    <img class="w-16" src="./images/wordpress.png" alt="">
+                    <img class="w-16" src="./images/tailwind.png" alt="">
+                    <img class="w-16" src="./images/mongodb.png" alt="">
+                    <img class="w-16" src="./images/python.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="p-8" id="proyectos">
+            <div class="flex flex-col">
+                <h2 class="mb-8 text-2xl mx-auto">Proyectos</h2>
+                <div class="mb-8 mx-auto flex flex-col items-center sm:flex-row sm:flex-wrap gap-4 justify-center">
+                    <!-- Card Proyecto -->
+                    <div class="flex flex-col justify-between border-2 border-grey-200 w-80 p-4 h-96">
+                        <!-- Imagen -->
+                        <div class="h-40 overflow-hidden">
+                            <img class="object-center object-" src="./images/header-proyecto1.png" alt="">
+                        </div>
+                        <!-- Descripción -->
+                        <div class="mb-4">
+                            <h3 class="font-semibold">CoderSchool</h3>
+                            <p>Sitio web de una Institución Educativa</p>
+                        </div>
+                        <!-- Desarrollado -->
+                         <div class="mb-4 flex flex-wrap gap-2 text-xs">
+                            <p class="border-2 border-red-300 font-medium p-2 rounded-lg">HTML</p>
+                            <p class="border-2 border-blue-300 font-medium p-2 rounded-lg">CSS</p>
+                            <p class="border-2 border-yellow-300 font-medium p-2 rounded-lg">JavaScript</p>
+                         </div>
+                        <!-- Botones -->
+                        <div class="flex flex-row  justify-between">
+                            <a href="https://luisyslas00.github.io/courses-luisyslas/" target="_blank" class="bg-cyan-600 text-white hover:bg-cyan-300 px-5 py-2.5 rounded-lg font-medium cursor-pointer ">Ver Proyecto</a>
+                            <a href="https://github.com/luisyslas00/courses-luisyslas" target="_blank" type="button" class="text-white bg-[#24292F] hover:bg-[#24292F]/90 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#050708]/30 cursor-pointer">
+                                <svg class="w-4 h-4 me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z" clip-rule="evenodd"/>
+                                </svg>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex flex-col justify-between border-2 border-grey-200 w-80 p-4 h-96">
+                        <!-- Imagen -->
+                        <div class="h-40 overflow-hidden">
+                            <img class="object-center object-" src="./images/Captura de pantalla 2025-03-01 154840.png" alt="">
+                        </div>
+                        <!-- Descripción -->
+                        <div class="mb-4">
+                            <h3 class="font-semibold">Todo Retro</h3>
+                            <p>E-commerce de productos gaming</p>
+                        </div>
+                        <!-- Desarrollado -->
+                         <div class="mb-4 flex flex-wrap gap-2 text-xs">
+                            <p class=" border-2 border-[#00749C] p-2 rounded-lg font-medium">Wordpress</p>
+                         </div>
+                        <!-- Botones -->
+                        <div class="flex flex-row  justify-between">
+                            <a href="https://dev-todoretro.pantheonsite.io/" target="_blank" class="bg-cyan-600 text-white hover:bg-cyan-300 px-5 py-2.5 rounded-lg font-medium cursor-pointer ">Ver Proyecto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Certificados -->
+        <div class="p-8 bg-black h-screen">
+            <div class="flex flex-col items-center justify-center">
+                <h2 class="mb-8 text-2xl mx-auto text-white">Certificados</h2>
+                <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 items-center justify-center">
+                    <div class="w-80">
+                        <a href="https://pub.coderhouse.com/legacy-certificates/677d2c050e12b85c3bce25f7?lang=es" target="_blank">
+                            <img class="hover:opacity-80" src="./images/677d2c050e12b85c3bce25f7.png" alt="Certificado Desarrollo Web">
+                        </a>
+                    </div>
+                    <div class="w-80">
+                        <a href="https://pub.coderhouse.com/legacy-certificates/677e7ec077c1cfd28a0c3fde?lang=es" target="_blank">
+                            <img class="hover:opacity-80" src="./images/677e7ec077c1cfd28a0c3fde.png" alt="Certificado JavaScript">
+                        </a>
+                    </div>
+                    <div class="w-80">
+                        <a href="https://pub.coderhouse.com/legacy-certificates/622d0f7da8e595008705c33b?lang=es" target="_blank">
+                            <img class="hover:opacity-80" src="./images/622d0f7da8e595008705c33b.png" alt="Certificado React">
+                        </a>
+                    </div>
+                    <div class="w-80">
+                        <a href="https://pub.coderhouse.com/legacy-certificates/63d85c9f74f29e000ecd1d2f?lang=es" target="_blank">
+                            <img class="hover:opacity-80" src="./images/63d85c9f74f29e000ecd1d2f.png" alt="Certificado Python">
+                        </a>
+                    </div>
+                    <div class="w-80">
+                        <a href="https://pub.coderhouse.com/legacy-certificates/66f2998f66f2c40cf2b734e0?lang=es" target="_blank">
+                            <img class="hover:opacity-80" src="./images/66f2998f66f2c40cf2b734e0.png" alt="Certificado Programación Backend">
+                        </a>
+                    </div>
+                    <div class="w-80">
+                        <a href="https://pub.coderhouse.com/legacy-certificates/6775d4ef1e453fec3638ff5c?lang=es" target="_blank">
+                            <img class="hover:opacity-80" src="./images/6775d4ef1e453fec3638ff5c.png" alt="Certificado Wordpress">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contacto -->
+        <div class="p-8" id="contacto">
+            <div class="flex flex-col">
+                <h2 class="mb-8 text-2xl mx-auto">Contáctame</h2>
+                <div class="flex items-center justify-center gap-4">
+                    <a href="mailto:yslasluis92@gmail.com" class="bg-black text-white py-2 px-4 rounded-lg hover:bg-gray-400 flex gap-4 items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="4" width="20" height="16" rx="2" ry="2"/>
+                            <path d="M2 6l10 7 10-7"/>
+                        </svg>
+                        Correo
+                    </a>
+                    <a href="https://www.linkedin.com/in/luis-yslas/" target="_blank" class="bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-400 flex gap-4 items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/>
+                            <rect x="2" y="9" width="4" height="12"/>
+                            <circle cx="4" cy="4" r="2"/>
+                        </svg>
+                        LinkedIn
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-black p-8 flex items-center justify-center">
+        <h3 class="text-white">Luis Yslas | Portfolio | Desarrollador FullStack</h3>
+    </footer>
+    <script src="./js/index.js"></script>
+</body>
+</html>
