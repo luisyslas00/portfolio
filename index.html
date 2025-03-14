@@ -22,7 +22,7 @@
 <body>
     <!-- Header -->
     <header>
-        <nav id="navbar" class="bg-gray-800 text-white w-100 fixed w-full lg:bg-transparent">
+        <nav id="navbar" class="bg-gray-800 text-white w-100 fixed z-10 w-full lg:bg-transparent">
             <!-- Menú Escritorio -->
             <div class="flex flex-row justify-around items-center p-4">
                 <!-- Logo -->
@@ -79,17 +79,47 @@
         <div class="p-8 lg:h-screen flex items-center justify-center" id="skills">
             <div class="flex flex-col">
                 <h2 class="mb-8 text-2xl mx-auto">Skills</h2>
-                <div class="grid grid-cols-5 gap-8 items-center lg:grid-cols-5 justify-center">
-                    <img class="w-16" src="./images/html.png" alt="Logo HTML">
-                    <img class="w-12" src="./images/css.png" alt="Logo CSS">
-                    <img class="w-16" src="./images/javascript.png" alt="Logo JavaScript">
-                    <img class="w-16" src="./images/react.png" alt="Logo React">
-                    <img class="w-16" src="./images/nodejs.png" alt="Logo NodeJS">
-                    <img class="w-16" src="./images/github.png" alt="Logo Github">
-                    <img class="w-16" src="./images/wordpress.png" alt="Logo Wordpress">
-                    <img class="w-16" src="./images/tailwind.png" alt="Logo Tailwind">
-                    <img class="w-16" src="./images/mongodb.png" alt="Logo MongoDB">
-                    <img class="w-16" src="./images/python.png" alt="Logo Python">
+                <div class="grid grid-cols-5 gap-4 items-center lg:grid-cols-10 justify-center">
+                    <div class="flex flex-col items-center justify-between h-24">
+                        <img class="w-16" src="./images/html.png" alt="Logo HTML">
+                        <p>HTML</p>
+                    </div>
+                    <div class="flex flex-col items-center justify-between h-24">
+                        <img class="w-16" src="./images/css.png" alt="Logo CSS">
+                        <p>CSS</p>
+                    </div>
+                    <div class="flex flex-col items-center justify-between h-24">
+                        <img class="w-16" src="./images/javascript.png" alt="Logo JavaScript">
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="flex flex-col items-center justify-between h-24">
+                        <img class="w-16" src="./images/react.png" alt="Logo React">
+                        <p>React</p>
+                    </div>
+                    <div class="flex flex-col items-center justify-between h-24">
+                        <img class="w-16 rounded-full" src="./images/nodejs.png" alt="Logo NodeJS">
+                        <p>NodeJS</p>
+                    </div>
+                    <div class="flex flex-col items-center justify-between h-24">
+                        <img class="w-16" src="./images/github.png" alt="Logo Github">
+                        <p>GitHub</p>
+                    </div>
+                    <div class="flex flex-col items-center justify-between h-24">
+                        <img class="w-16" src="./images/wordpress.png" alt="Logo Wordpress">
+                        <p>Wordpress</p>
+                    </div>
+                    <div class="flex flex-col items-center justify-between h-24">
+                        <img class="w-16" src="./images/tailwind.png" alt="Logo Tailwind">
+                        <p>Tailwind</p>
+                    </div>
+                    <div class="flex flex-col items-center justify-between h-24">
+                        <img class="w-16" src="./images/mongodb.png" alt="Logo MongoDB">
+                        <p>MongoDB</p>
+                    </div>
+                    <div class="flex flex-col items-center justify-between h-24">
+                        <img class="w-16" src="./images/python.png" alt="Logo Python">
+                        <p>Python</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -148,36 +178,36 @@
             </div>
         </div>
         <!-- Certificados -->
-        <div class="p-8 bg-black lg:h-screen flex items-center justify-center" id="certificados">
+        <div class="p-8 lg:h-screen flex items-center justify-center bg-black" id="certificados">
             <div class="flex flex-col items-center justify-center">
                 <h2 class="mb-8 text-2xl mx-auto text-white">Certificados</h2>
                 <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 items-center justify-center">
-                    <div class="w-80">
+                    <div class="w-80 lg:shadow-lg lg:hover:shadow-white">
                         <a href="https://pub.coderhouse.com/legacy-certificates/677d2c050e12b85c3bce25f7?lang=es" target="_blank">
                             <img class="hover:opacity-80" src="./images/677d2c050e12b85c3bce25f7.png" alt="Certificado Desarrollo Web">
                         </a>
                     </div>
-                    <div class="w-80">
+                    <div class="w-80 lg:shadow-lg lg:hover:shadow-white">
                         <a href="https://pub.coderhouse.com/legacy-certificates/677e7ec077c1cfd28a0c3fde?lang=es" target="_blank">
                             <img class="hover:opacity-80" src="./images/677e7ec077c1cfd28a0c3fde.png" alt="Certificado JavaScript">
                         </a>
                     </div>
-                    <div class="w-80">
+                    <div class="w-80 lg:shadow-lg lg:hover:shadow-white">
                         <a href="https://pub.coderhouse.com/legacy-certificates/622d0f7da8e595008705c33b?lang=es" target="_blank">
                             <img class="hover:opacity-80" src="./images/622d0f7da8e595008705c33b.png" alt="Certificado React">
                         </a>
                     </div>
-                    <div class="w-80">
+                    <div class="w-80 lg:shadow-lg lg:hover:shadow-white">
                         <a href="https://pub.coderhouse.com/legacy-certificates/63d85c9f74f29e000ecd1d2f?lang=es" target="_blank">
                             <img class="hover:opacity-80" src="./images/63d85c9f74f29e000ecd1d2f.png" alt="Certificado Python">
                         </a>
                     </div>
-                    <div class="w-80">
+                    <div class="w-80 lg:shadow-lg lg:hover:shadow-white">
                         <a href="https://pub.coderhouse.com/legacy-certificates/66f2998f66f2c40cf2b734e0?lang=es" target="_blank">
                             <img class="hover:opacity-80" src="./images/66f2998f66f2c40cf2b734e0.png" alt="Certificado Programación Backend">
                         </a>
                     </div>
-                    <div class="w-80">
+                    <div class="w-80 lg:shadow-lg lg:hover:shadow-white">
                         <a href="https://pub.coderhouse.com/legacy-certificates/6775d4ef1e453fec3638ff5c?lang=es" target="_blank">
                             <img class="hover:opacity-80" src="./images/6775d4ef1e453fec3638ff5c.png" alt="Certificado Wordpress">
                         </a>
